@@ -10,6 +10,7 @@ namespace CSharp_Exaples
     {
         static void Main(string[] args)
         {
+            // code
         }
     }
 }
