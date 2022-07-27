@@ -14,9 +14,24 @@ namespace CSharp_Exaples
             //Display(dataBase);
             //GetData_Where(dataBase);
             //GetData_Where_Select(dataBase);
-            GetData_Where_Select_Dto(dataBase);
+            //GetData_Where_Select_Dto(dataBase);
+            //GetData_Take(dataBase);
+            //GetData_TakeWhile(dataBase);
 
+            Console.WriteLine("/////////");
             Console.ReadKey();
+        }
+
+        static void GetData_TakeWhile(IEnumerable<Parcel> parcels)
+        {
+            var result = parcels.TakeWhile(p => p.Area != 2000);
+            Display(result);
+        }
+
+        static void GetData_Take(IEnumerable<Parcel> parcels)
+        {
+           var result = parcels.Take(10);
+            Display(result);
         }
 
         static void GetData_Where_Select_Dto(IEnumerable<Parcel> parcels)
