@@ -43,5 +43,15 @@ namespace CSharp_Exaples
                     $"{Category,-11} | " +
                     $"{City,-16} | ";
         }
+        public static string GetHeader()
+        {
+            return
+        $"{"",-5} | " +
+        $"{"Id",-5} | " +
+        $"{"Area",-10} | " +
+        $"{"Price",-10} | " +
+        $"{"Category",-11} | " +
+        $"{"City",-16} | ";
+        }
     }
 }

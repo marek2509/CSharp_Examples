@@ -13,9 +13,9 @@ namespace CSharp_Exaples
 
             return new List<Parcel>
             {
-                new Parcel(900,4140,Category.Forest,"KRZECZKOWO"),
-                new Parcel(22300,41915.25,Category.Building,"BAGNO"),
-                new Parcel(49,190.2,Category.Meadow,"BAGNO"),
+                new Parcel(9000,4140,Category.Forest,"KRZECZKOWO"),
+                new Parcel(10000,41915.25,Category.Building,"BAGNO"),
+                new Parcel(9549,190.2,Category.Meadow,"BAGNO"),
                 new Parcel(200,1354.6,Category.Building,"BAGNO"),
                 new Parcel(900,4496.4,Category.Meadow,"BAGNO"),
                 new Parcel(3600,17827.2,Category.Building,"BAGNO"),
